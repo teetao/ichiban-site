@@ -1,0 +1,275 @@
+
+body {
+    background-color: #eef2ea;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Nav Bar
+/* ---------------------------------------------------------------------- */
+
+
+.navbar-default {
+    /*background-color: floralwhite;*/
+    border-color: #e7e7e7;
+}
+
+.nav-image {
+    /*background-color: lightcyan;*/
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.nav-item:hover {
+    /*background-color: lightgoldenrodyellow;*/
+
+}
+
+
+
+.navbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Always float the navbar header */
+.navbar-header {
+    float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-brand {
+    margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navbar-nav > li {
+    float: left;
+}
+
+.navbar-nav > li > a {
+    padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+    float: right;
+}
+
+.navbar-nav > li:hover {
+    background-color: #ccc;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Container
+/* ---------------------------------------------------------------------- */
+
+.container {
+    /*padding: 0 0 0 0;*/
+    /*max-width: 1000px;*/
+    max-width: none !important;
+    width: 1000px !important;
+}
+
+/*.container .container-inner {*/
+/*padding: 0 10px 10px;*/
+/*}*/
+
+.content-body {
+    margin-top: 5px;
+
+}
+
+.content-header {
+    text-align: center;
+
+    color: #404041;
+    font-family: "GraublauSlab-Regular", Helvetica, Arial, sans-serif;
+}
+
+#content-wrapper > .container {
+    background-color: #ffffff;
+    /*background-color: #f7f0da;*/
+    border: 1px solid #CCC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+
+}
+#main-content {
+    /*padding: 0 0 0 0;*/
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #B21F1F;
+    color: #fff;
+}
+/*#header {*/
+    /*background-color: #E9F3DF;*/
+/*}*/
+
+#main-content .panel {
+    /*border: 1px solid #CEDDF3;*/
+    box-shadow: 0 0 5px rgba(12, 8, 49, 0.2);
+    webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+
+}
+
+
+.side-content {
+    font-size: small;
+}
+
+.side-content .panel {
+    border-color: #F1EBEB ;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Footer
+/* ---------------------------------------------------------------------- */
+
+#footer {
+    margin-top: 12px;
+    background-color: #0b1902;
+    padding-bottom: 15px;
+}
+
+#footer h3 {
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 0;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer a {
+    color: #c6cdbe;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer .contact {
+    font-size: 0.86em;
+    line-height: 14px;
+}
+
+#footer .contact img {
+    margin: 0 0 0 1px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+#footer .contact a,
+#footer .contact a:hover {
+    text-decoration: none;
+}
+
+#footer .social {
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+#footer .info {
+    text-align: right;
+}
+
+#footend {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 11px;
+}
+
+#footend .container {
+    border-top: 1px solid #CCC;
+    padding: 10px 0;
+}
+
+#footer .info,
+#footer .info p,
+#copy, #copy p {
+    font-size: 11px;
+    line-height: 1.3em;
+    color: #777;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	my...
+/* ---------------------------------------------------------------------- */
+.panel-heading {
+    /*text-align: center;*/
+}
+
+
+/* top row */
+.col {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.col-wrap {
+    overflow: hidden;
+}
+
+/*box style */
+.box-list {
+
+    list-style: none;
+    padding-left: inherit;
+
+}
+
+/*------ 404 -----------*/
+.error-body {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);
+}
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-actions .btn {
+    margin-right: 10px;
+}
+

@@ -1,0 +1,18 @@
+
+<div class="panel panel-default">
+<div class="panel-heading">Testimonials</div>
+<div class="panel-body">
+
+    <ul class="box-list">
+
+    <#list testimonials as item>
+        <li>${item.author} : " ${item.msg} "</li>
+        <#if item_index == 0><#break></#if>
+    </#list>
+
+    </ul>
+
+</div>
+</div>
+
+
